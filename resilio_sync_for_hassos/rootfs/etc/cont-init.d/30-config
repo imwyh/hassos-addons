@@ -2,7 +2,7 @@
 
 # copy config
 [[ ! -e /config/resilio_sync_for_hassos/sync.conf ]] && \
-    cp -r /resilio_sync_for_hassos /config
+    cp -r /resilio_sync_for_hassos /config && mkdir /config/resilio_sync_for_hassos/storage
 
 # permissions
 # chown -R abc:abc \
