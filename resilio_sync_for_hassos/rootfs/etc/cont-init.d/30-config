@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bash
+
+# copy config
+[[ ! -e /config/resilio_sync_for_hassos/sync.conf ]] && \
+    cp -r /resilio_sync_for_hassos /config
+
+# permissions
+# chown -R abc:abc \
+#     /config
+# chown abc:abc \
+#     /sync

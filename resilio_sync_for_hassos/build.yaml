@@ -1,0 +1,4 @@
+build_from:
+  aarch64: ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-focal
+  amd64: ghcr.io/linuxserver/baseimage-ubuntu:focal
+  armhf: ghcr.io/linuxserver/baseimage-ubuntu:arm32v7-focal
