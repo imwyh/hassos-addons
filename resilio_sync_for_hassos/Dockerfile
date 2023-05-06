@@ -24,7 +24,10 @@ RUN \
     "resilio-sync=${SYNC_VERSION}" && \
   echo "**** cleanup ****" && \
   rm -rf \
-    /tmp/*
+    /tmp/* \
+    /var/lib/apt/lists/* \
+    /var/tmp/* \
+    /var/log/*
 
 # add local files
 COPY rootfs/ / 
