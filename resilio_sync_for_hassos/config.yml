@@ -1,5 +1,5 @@
 name: resilio sync for hassos
-version: 1.1.1
+version: 1.2
 slug: resilio_sync_for_hassos
 description: 使用resilio sync同步/backup目录到其它设备。安装完成后请通过IP:8888以访问
 arch:
@@ -16,3 +16,4 @@ map:
   - backup:rw
   - config:rw
 url: https://github.com/imwyh/hassos-addons
+init: false
